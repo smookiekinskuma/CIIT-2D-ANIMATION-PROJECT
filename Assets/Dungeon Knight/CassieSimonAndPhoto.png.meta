@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: e37d8908d311ad747b30a3d574ebf7f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8047310689609962572
+    second: CassieSimonAndPhoto_0
+  - first:
+      213: 327890919003989669
+    second: CassieSimonAndPhoto_1
+  - first:
+      213: -2109402121826469427
+    second: CassieSimonAndPhoto_2
+  - first:
+      213: -3366490288147783668
+    second: CassieSimonAndPhoto_3
+  - first:
+      213: 980274886551202829
+    second: CassieSimonAndPhoto_4
+  - first:
+      213: -3402178225550206434
+    second: CassieSimonAndPhoto_5
+  - first:
+      213: -289025899648677078
+    second: CassieSimonAndPhoto_6
+  - first:
+      213: 1851082266676841483
+    second: CassieSimonAndPhoto_7
+  - first:
+      213: 632301894092407851
+    second: CassieSimonAndPhoto_8
+  - first:
+      213: -2615361058049529031
+    second: CassieSimonAndPhoto_9
+  - first:
+      213: 4393885676755443638
+    second: CassieSimonAndPhoto_10
+  - first:
+      213: -5686247249675964576
+    second: CassieSimonAndPhoto_11
+  - first:
+      213: 4586127292817477721
+    second: CassieSimonAndPhoto_12
+  - first:
+      213: 5297795464666036618
+    second: CassieSimonAndPhoto_13
+  - first:
+      213: 3547562374744114836
+    second: CassieSimonAndPhoto_14
+  - first:
+      213: 940283095494775733
+    second: CassieSimonAndPhoto_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 105
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb28947095325090800000000000000
+      internalID: -8047310689609962572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 105
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a62f48bd07ec8400800000000000000
+      internalID: 327890919003989669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 105
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9f31042f5e9b2e0800000000000000
+      internalID: -2109402121826469427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 105
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00262b5be2d741d0800000000000000
+      internalID: -3366490288147783668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 105
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cee1bc0d2aa9d00800000000000000
+      internalID: 980274886551202829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 105
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ad28bede809c0d0800000000000000
+      internalID: -3402178225550206434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 105
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b8d80c97c2dfbf0800000000000000
+      internalID: -289025899648677078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 105
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c4c4b938d50b910800000000000000
+      internalID: 1851082266676841483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 105
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b244f2cf83366c800800000000000000
+      internalID: 632301894092407851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b619779fe54bbd0800000000000000
+      internalID: -2615361058049529031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 80
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf5fa24eb73afc30800000000000000
+      internalID: 4393885676755443638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassieSimonAndPhoto_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 80
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fa502e0446611b0800000000000000
+      internalID: -5686247249675964576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
