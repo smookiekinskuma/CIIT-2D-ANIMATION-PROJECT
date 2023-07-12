@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -24,11 +25,21 @@ public class PlayerMovement : MonoBehaviour
     //health
     public int healthPoints;
 
+    //Text
+    public TextMeshProUGUI HealthText, CoinText;
+    
+    //Timer
+    public float normalSpeed, boostedSpeed, speedCoolDown;
+
+    public GameObject Win, Game;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        //healthPoints = 10;
+        
+        
+        normalSpeed = moveSpeed;
         //Gets the Rigidbody Component from the player
         rigidBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -37,11 +48,20 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        HealthText.text = healthPoints.ToString();
+        CoinText.text = coincounter.ToString();
+
         //Gets the horizontal string on animator and adding the movement input x into it
         anim.SetFloat("Horizontal", movementInput.x );
         //Gets the horizontal string on animator and adding the movement input y into it
         anim.SetFloat("Vertical", movementInput.y);
         anim.SetFloat("Speed", movementInput.sqrMagnitude);
+
+        if (coincounter == 210)
+        {
+            Game.SetActive(false);
+            Win.SetActive(true);
+        }
 
         //OR - CTRL + K + C = COMMENT ALL
         //S Down
@@ -98,7 +118,38 @@ public class PlayerMovement : MonoBehaviour
             coincounter++;
             Destroy(collision.gameObject);
         }
+
+        if (collision.CompareTag("Chest"))
+        {
+            coincounter++;
+            coincounter++;
+            coincounter++;
+            coincounter++;
+            coincounter++;
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.CompareTag("Health"))
+        {
+            healthPoints++;
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.CompareTag("Speed"))
+        {
+            moveSpeed = boostedSpeed;
+            Destroy(collision.gameObject);
+            StartCoroutine("SpeedDuration");
+        }
     }
+
+    IEnumerator SpeedDuration()
+    {
+        yield return new WaitForSeconds(speedCoolDown);
+        moveSpeed = normalSpeed;
+    }
+
+
 
     //Update that handles physics (every 0.01)
     private void FixedUpdate()
@@ -111,6 +162,12 @@ public class PlayerMovement : MonoBehaviour
     private void OnMove(InputValue inputValue)
     {
         movementInput = inputValue.Get<Vector2>();
+        
+    }
+    
+    public void ExitButton()
+    {
+        Application.Quit();
     }
 
     //FPS Frames Per Second

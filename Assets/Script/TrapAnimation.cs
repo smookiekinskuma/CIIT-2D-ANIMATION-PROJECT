@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class TrapAnimation : MonoBehaviour
 {
     public Animator anim;
     public PlayerMovement playerMovement;
     public int TrapDamage;
+    public bool IsPlayerOnTop;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,7 @@ public class TrapAnimation : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            IsPlayerOnTop = true;
             anim.SetBool("IsActive", true);
         }
     }
@@ -25,6 +28,7 @@ public class TrapAnimation : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            IsPlayerOnTop = false;
             anim.SetBool("IsActive", false);
         }
     }
@@ -32,6 +36,17 @@ public class TrapAnimation : MonoBehaviour
     public void PlayerDamage()
     {
         //playerMovement.healthPoints--;
-        playerMovement.healthPoints = playerMovement.healthPoints - TrapDamage;
+        if (IsPlayerOnTop)
+        {
+            playerMovement.healthPoints = playerMovement.healthPoints - TrapDamage;
+        }
+
+        
+
+    }
+
+    private void Update()
+    {
+        
     }
 }
